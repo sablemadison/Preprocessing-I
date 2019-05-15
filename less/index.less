@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	color: black;
 }
 ol, ul {
 	list-style: none;
@@ -52,8 +53,59 @@ table {
 * {
     box-sizing: border-box;
 }
-
-html, body {
-    height: 100%;
+@calm-green: rgba(92, 185, 199, 0.15);
+.bordersetting() {
+	border: 2px dotted white;
 }
 
+html, body {
+	height: 100%;
+	.content-container {
+		background-color: @calm-green;
+		
+		
+	}
+	
+}
+
+
+.myphoto {
+	width: 200px;
+	height: 250px;
+}
+header {
+	.top-nav { 
+width: 85%;
+
+justify-content: space-between;
+padding: 25px;
+display: flex;
+align-items: flex-start;
+
+font-size: 14px;
+font-family: 'Lucida Grande', Times, serif;
+	
+.dandy {
+	width: 200px; 
+	height: 60px;
+	margin: -10px 100px 50px 100px;
+	opacity: .7;
+	border-radius: 55px;
+}
+a {
+	text-decoration: none;
+	color: black;
+	
+}
+	}
+}
+
+section {
+	.middle-content .mcphoto {
+width: 300px;
+height: 500px;
+	}
+	p {
+
+	}
+}
